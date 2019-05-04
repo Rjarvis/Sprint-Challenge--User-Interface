@@ -158,6 +158,22 @@ header nav a{
     color: black;
 }
 
+header nav a:hover{
+    width: inherit;
+    height: inherit;
+    padding: 0.5%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 2px;
+    transition-duration: 2ms;
+}
+
+header nav a:hover:first-child{
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.02)
+}
+
 header img{
     width: 100%;
     margin: 2% auto;
@@ -196,4 +212,5 @@ header img{
 
 .about-page-full{
     padding: 5%;
+    border-bottom: 1px dashed black;
 }
