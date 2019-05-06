@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    padding: 2%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -143,4 +144,73 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* roland-jarvis code below here*/
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover{
+    width: inherit;
+    height: inherit;
+    padding: 0.5%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 2px;
+    transition-duration: 2ms;
+}
+
+header nav a:hover:first-child{
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.02)
+}
+
+header img{
+    width: 100%;
+    margin: 2% auto;
+}
+
+.about-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-column{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    padding: 5% 0;
+    border-bottom: 1px dashed black;
+}
+
+.flex-column img{
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+}
+
+.flex-column button{
+    margin-top: 5%; 
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-page-full{
+    padding: 5%;
+    border-bottom: 1px dashed black;
 }
